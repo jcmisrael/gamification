@@ -1,0 +1,13 @@
+<div class="header">
+    <h1>{{ site.name }}</h1>
+    <ul>
+        <li>
+            <h1 style="margin-top: -30px;">Gamification</h1>
+        </li>
+        {% for item in site.data.navigation %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
