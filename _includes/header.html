@@ -6,7 +6,7 @@
         </li>
         {% for item in site.data.navigation %}
         <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
+            <a href="{{ site.github.url }}{{ item.url }}">{{ item.title }}</a>
         </li>
         {% endfor %}
     </ul>
